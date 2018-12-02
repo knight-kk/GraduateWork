@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/test_comment_photo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="chf"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="@id/circleImageView"
+        app:layout_constraintLeft_toRightOf="@id/circleImageView"
+        app:layout_constraintTop_toTopOf="@id/circleImageView" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容"
+        android:textColor="@color/text_color"
+        app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_user_name" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="5天前"
+        android:textColor="@color/text_color"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="10dp"
+        android:text="查看回复"
+        android:textColor="@color/google_blue"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@id/tv_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+    <CheckBox
+        android:id="@+id/ck_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:button="@drawable/ck_good"
+        android:text=" (146)"
+        app:layout_constraintBottom_toBottomOf="@id/tv_date"
+        app:layout_constraintRight_toLeftOf="@+id/img_reply"
+        app:layout_constraintTop_toTopOf="@id/tv_date" />
+
+
+    <ImageView
+        android:id="@+id/img_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:src="@drawable/reply"
+        app:layout_constraintBottom_toBottomOf="@id/tv_date"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_date" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/header_title"
+    android:padding="12dp"
+    android:gravity="center"
+    android:text="关\n注\n的\n圈\n子"
+    android:layout_height="match_parent"/>
+
+
+

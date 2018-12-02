@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.abc.graduatework.ui.activity.login.RegisterActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:title="注册" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_userName"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/bg_edit"
+        android:hint="用户名"
+        android:maxLines="1"
+        android:inputType="text"
+        android:paddingLeft="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_email"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="30dp"
+        android:autoSizeTextType="uniform"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/bg_edit"
+        android:hint="邮箱"
+        android:paddingLeft="26dp"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_userName" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_password"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/bg_edit"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:paddingLeft="26dp"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_email" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_re_password"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/bg_edit"
+        android:hint="确认密码"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:paddingLeft="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_password" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_btn_gray"
+        android:enabled="false"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_re_password" />
+
+
+</android.support.constraint.ConstraintLayout>

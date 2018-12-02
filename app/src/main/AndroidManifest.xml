@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.abc.graduatework">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppClient"
+        android:allowBackup="true"
+        android:icon="@mipmap/biyesheng"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/biyesheng"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.activity.login.LoginActivity" />
+        <activity android:name=".ui.activity.GraduateActivity" />
+        <activity android:name=".ui.activity.ArticleInfoActivity" />
+        <activity android:name=".ui.activity.topic.TopicInfoActivity" />
+        <activity android:name=".ui.activity.topic.AddTopicActivity" />
+        <activity
+            android:name=".ui.activity.login.RegisterActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".ui.activity.login.PerfectInfoActivity" />
+        <activity android:name=".ui.activity.topic.AllTopicActivity" />
+        <activity android:name=".ui.activity.user.MyTopicActivity" />
+        <activity android:name=".ui.activity.SelectSchoolActivity" />
+        <activity android:name=".ui.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.edu.abc.graduatework"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file" />
+        </provider>
+
+        <activity android:name=".ui.activity.user.UserInfoActivity" />
+        <activity android:name=".ui.activity.topic.AddArticleActivity" />
+        <activity android:name=".ui.activity.user.UserCollectionActivity" />
+        <activity android:name=".ui.activity.user.MyArticleActivity" />
+        <activity android:name=".ui.activity.user.ByMeActivity" />
+        <activity android:name=".ui.activity.NewInfoActivity" />
+    </application>
+
+</manifest>

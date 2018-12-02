@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed4f46</color>
+    <!--<color name="colorPrimaryDark">#b4101e</color>-->
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#f7c04b</color>
+    <color name="driver_line_color">#d3d3d3</color>
+    <color name="text_color">#333333</color>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+    <color name="google_red">#EA4335</color>
+    <color name="follow_green">#3DB922</color>
+</resources>

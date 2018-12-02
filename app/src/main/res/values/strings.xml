@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">高校毕业生</string>
+    <string name="title_home">首页</string>
+    <string name="title_graduate">毕业生</string>
+    <string name="title_topic">圈子</string>
+    <string name="title_my">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="graduate_info">
+        陈华峰，女，汉族，安徽安庆人，中共预备党员，1995年12月出生，2016年9月至今就读于安徽商贸职业技术学院电子信息工程系电子商务技术专业。在校期间，曾获国家励志奖学金、学院一等奖学金、二等奖学金；获全国职业技能大赛高职组团体赛一等奖等奖项；获得芜湖市“三好学生”等荣誉称号。
+\n二、个人事迹\n
+自2016年入学以来，陈华峰同学一直以商贸学院“厚德弘商，笃学砺能” 的校训严格要求自己。在思想上，陈华峰同学积极进取，乐观开朗，积极向党组织靠拢，现已成为中共预备党员；在学习上，认真刻苦，勤思好学，成绩在班级名列前茅；在生活中，乐于助人，勤俭节约，团结同学，利用课余时间积极参加校园活动和比赛并获佳绩；在工作中，脚踏实地，认真负责，一丝不苟，是一个全面发展的大学生。
+</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
